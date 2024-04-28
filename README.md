@@ -36,8 +36,8 @@ pip install -r requirements.txt
 ### Start the Application
 Launch the application with Flask's built-in server:
 
-export FLASK_APP=rf_model.py
-flask run
+- export FLASK_APP=rf_model.py
+- flask run
 
 
 ### Usage
