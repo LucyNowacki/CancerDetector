@@ -22,7 +22,7 @@ X_test_scaled = scaler.transform(X_test_flattened)
 dump(scaler, 'fitted_scaler.joblib')
 
 from sklearn.ensemble import RandomForestClassifier
-# XGBoost
+
 # Random Forest
 rf_model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=42)
 rf_model.fit(X_train_scaled, Y_train)
